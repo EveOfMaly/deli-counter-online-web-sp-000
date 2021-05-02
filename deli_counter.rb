@@ -32,14 +32,14 @@ end
 
 
 
-def interaction(array)
-  puts "Welcome to the Deli Counter."
-  puts "Can you please put your name:"
+# def interaction(array)
+#   puts "Welcome to the Deli Counter."
+#   puts "Can you please put your name:"
  
-   line(array)
-   now_serving(array)
-end
+#   line(array)
+#   now_serving(array)
+# end
 
-interaction(array)
+# interaction(array)
 
  

@@ -35,7 +35,7 @@ end
 def interaction(array)
   puts "Welcome to the Deli Counter."
   puts "Can you please put your name:"
-   take_a_number(array, new_customer)
+ 
    line(array)
    now_serving(array)
 end

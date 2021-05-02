@@ -32,14 +32,19 @@ end
 
 
 
-# def interaction(array)
-#   puts "Welcome to the Deli Counter."
-#   puts "Can you please put your name:"
- 
-#   line(array)
-#   now_serving(array)
-# end
+def interaction(array)
+  counter = 0
+  puts "Welcome to the Deli Counter."
+  puts "Can you please put your name:"
+  while counter <= 5
+   new_customer = gets.chomp
+   take_a_number(array, new_customer)
+   line(array)
+   now_serving(array)
+   counter += 1
+  end
+end
 
-# interaction(array)
+interaction(array)
 
  

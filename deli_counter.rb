@@ -43,6 +43,7 @@ def interaction(array)
    line(array)
    now_serving(array)
    counter += 1
+   interaction(array)
   end
 end
 

@@ -36,8 +36,9 @@ def interaction(array)
   counter = 0
   puts "Welcome to the Deli Counter."
   puts "Can you please put your name:"
+  new_customer = gets.chomp
   while counter <= 5
-   new_customer = gets.chomp
+ 
    take_a_number(array, new_customer)
    line(array)
    now_serving(array)
